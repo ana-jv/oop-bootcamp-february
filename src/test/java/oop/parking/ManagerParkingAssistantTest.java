@@ -26,6 +26,6 @@ public class ManagerParkingAssistantTest {
 
         manager.hire(assistant);
 
-        assertEquals(manager.getAssistantList().size(), 1);
+        assertEquals(manager.getAssistantsList().size(), 1);
     }
 }

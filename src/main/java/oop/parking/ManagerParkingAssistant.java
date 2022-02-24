@@ -1,23 +1,21 @@
 package oop.parking;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class ManagerParkingAssistant {
 
-
-    List<ParkingAssistant> assistantList;
+    List<ParkingAssistant> assistantsList;
 
     public ManagerParkingAssistant() {
-        this.assistantList = new ArrayList<>();
+        this.assistantsList = new ArrayList<>();
     }
 
     public void hire(ParkingAssistant assistant) {
-        assistantList.add(assistant);
+        assistantsList.add(assistant);
     }
 
-    public List<ParkingAssistant> getAssistantList() {
-        return assistantList;
+    public List<ParkingAssistant> getAssistantsList() {
+        return assistantsList;
     }
 }
